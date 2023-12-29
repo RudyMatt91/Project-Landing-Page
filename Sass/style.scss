@@ -179,7 +179,9 @@
                 border: solid 1px lightgrey;
                 font-weight: 700;
             }
-        }
+            .form-p{
+                padding:20px 0;
+            }
             a{
                 text-decoration: none;
                 border: solid 1px lightgrey;
@@ -197,9 +199,166 @@
                 img{
                     margin-right: 10px;
                     width: 8%;
-                };
             }
+          }
+        }
       }
     }
   }
+}
+
+#features-section{
+    text-align: center;
+    padding: 100px 0;
+    .content-decoration{
+        text-align: center;
+        h3{
+            text-align: center;
+            background: #6366f1;
+            color: white;
+            font-size: 1.4rem;
+            font-weight: 500;
+            padding: 10px 0;
+            border-radius: 50px;
+            width: 15%;
+            margin: 0 auto;
+        }
+    }
+        h2{
+            padding: 40px 0;
+            font-size: 3.8rem;
+            font-weight: 900;
+        }
+        .header-p{
+            font-size: 1.7rem;
+            color: #64728f;
+            line-height: 1.5;
+            padding-bottom: 60px;
+        }
+        .left-btn{
+            background: #6366f1;
+            border-radius: 10px;
+            padding: 17px 30px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 900;
+            margin-right: 5px;
+        }
+        .right-btn{
+            background: white;
+            border: solid 3px #6366f1;
+            border-radius: 10px;
+            padding: 14px 30px;
+            text-decoration: none;
+            color: #6366f1;
+            font-size: 1.3rem;
+            font-weight: 900;
+            margin-left: 5px;
+        }
+        .three-sections{
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            .features-section__one{
+                .feature-one{
+                    padding: 20px 0;
+                    .fa-chart-line{
+                        font-size: 2.5rem;
+                        color: #0062ff;
+                        background: #e0ecff;
+                        border-radius: 50%;
+                        padding: 25px;
+                        margin-bottom: 40px;
+                    }
+                    .fa-square-envelope{
+                        font-size: 2.5rem;
+                        color: #22c55e;
+                        background: #e4f8ec;
+                        border-radius: 50%;
+                        padding: 25px;
+                        margin-bottom: 40px;
+                    }
+                    .fa-user-group{
+                        font-size: 2.5rem;
+                        color: #fdb52a;
+                        background: #fff6e5;
+                        border-radius: 50%;
+                        padding: 25px;
+                        margin-bottom: 40px;
+                    }
+                    h3{
+                        font-size: 2.1rem;
+                        font-weight: 900;
+                        padding: 20px 0;
+                    }
+                    p{
+                        font-size: 1.4rem;
+                        line-height: 1.3;
+                        color: #64728f;
+                    }
+                    .link{
+                        margin-top: 60px;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            font-size: 1.3rem;
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+            .features-section__two{
+                height: 1050px;
+                width: 500px;
+            }
+            .features-section__three{
+                .feature-one{
+                    padding: 20px 0;
+                    .fa-pen{
+                        font-size: 2.5rem;
+                        color: #fa5b68;
+                        background: #feebed;
+                        border-radius: 50%;
+                        padding: 25px;
+                        margin-bottom: 40px;
+                    }
+                    .fa-tablet-screen-button{
+                        font-size: 2.5rem;
+                        color: #6366f1;
+                        background: #ecedfd;
+                        border-radius: 50%;
+                        padding: 25px;
+                        margin-bottom: 40px;
+                    }
+                    .fa-gear{
+                        font-size: 2.5rem;
+                        color: #13d5ff;
+                        background: #e3faff;
+                        border-radius: 50%;
+                        padding: 25px;
+                        margin-bottom: 40px;
+                    }
+                    h3{
+                        font-size: 2.1rem;
+                        font-weight: 900;
+                        padding: 20px 0;
+                    }
+                    p{
+                        font-size: 1.4rem;
+                        line-height: 1.3;
+                        color: #64728f;
+                    }
+                    .link{
+                        margin-top: 60px;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            font-size: 1.3rem;
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
 }
