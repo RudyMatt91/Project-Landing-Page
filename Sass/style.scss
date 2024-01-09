@@ -207,6 +207,21 @@
   }
 }
 
+.content-decoration{
+    text-align: center;
+    h3{
+        text-align: center;
+        background: #6366f1;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding: 10px 0;
+        border-radius: 50px;
+        width: 15%;
+        margin: 0 auto;
+    }
+}
+
 #features-section{
     text-align: center;
     padding: 100px 0;
@@ -220,7 +235,7 @@
             font-weight: 500;
             padding: 10px 0;
             border-radius: 50px;
-            width: 15%;
+            width: 16%;
             margin: 0 auto;
         }
     }
@@ -429,4 +444,37 @@
                 }
             }
         }
+}
+
+#join-our-community__section{
+    padding: 100px 0;
+    text-align: center;
+    .content-decoration{
+        h3{
+            width: 20%;
+        }
+    }
+    h2{
+        padding: 40px 0;
+        font-size: 3.6rem;
+        font-weight: 900;
+        line-height: 1.4;
+    } 
+    .stat-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 50px 0 100px;
+        .stats-section{
+            .number{
+                font-size: 4.5rem;
+                font-weight: bolder;
+                color: #6366f1;
+                margin-bottom: 30px;
+            }
+            .stat-title{
+                font-size: 1.5rem;
+                color: #64728f;
+            }
+        }
+    }
 }
