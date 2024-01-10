@@ -3,6 +3,25 @@
   margin: 0 auto;
 }
 
+.content-decoration{
+    text-align: center;
+    h3{
+        text-align: center;
+        background: #6366f1;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding: 10px 0;
+        border-radius: 50px;
+        width: 15%;
+        margin: 0 auto;
+    }
+}
+
+// body{
+//     min-height: 100%;
+// }
+
 #top-menu {
   width: 100%;
   background: #64728f;
@@ -205,21 +224,6 @@
       }
     }
   }
-}
-
-.content-decoration{
-    text-align: center;
-    h3{
-        text-align: center;
-        background: #6366f1;
-        color: white;
-        font-size: 1.4rem;
-        font-weight: 500;
-        padding: 10px 0;
-        border-radius: 50px;
-        width: 15%;
-        margin: 0 auto;
-    }
 }
 
 #features-section{
@@ -475,6 +479,130 @@
                 font-size: 1.5rem;
                 color: #64728f;
             }
+        }
+    }
+}
+
+#faq-section{
+    padding: 100px 0;
+    .faq-container__section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .top-left{
+            .content-decoration__faq{
+                width: 11%;
+                h3{
+                    text-align: center;
+                    background: #6366f1;
+                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    padding: 10px 0;
+                    border-radius: 50px;
+                }
+            }
+            h2{
+                padding: 40px 0;
+                font-size: 3.8rem;
+                font-weight: 900;
+            }
+            .header-p{
+                font-size: 1.7rem;
+                color: #64728f;
+                line-height: 1.5;
+                padding-bottom: 60px;
+            }            
+        }
+        .top-right{
+            display: flex;
+            justify-content: right;
+            align-items: end;
+            margin-bottom: 40px;
+            .left-btn{
+                background: #6366f1;
+                border-radius: 7px;
+                padding: 20px 30px;
+                text-decoration: none;
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 500;
+                margin-right: 10px;
+            }
+            .right-btn{
+                background: white;
+                border: solid 3px #6366f1;
+                border-radius: 7px;
+                padding: 18px 30px;
+                text-decoration: none;
+                color: #6366f1;
+                font-size: 1.5rem;
+                font-weight: 900;
+                margin-left: 5px;
+            }
+        }
+    }
+    .card-container{
+        padding: 50px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        .card{
+            border: solid 2px #e5e7eb;
+            border-radius: 15px;
+            padding: 40px 45px 40px;
+            .fa-chart-line{
+                font-size: 2.2rem;
+                color: #0062ff;
+                background: #e0ecff;
+                border-radius: 50%;
+                padding: 20px;
+            }
+            .fa-square-envelope{
+                font-size: 2.2rem;
+                color: #22c55e;
+                background: #e4f8ec;
+                border-radius: 50%;
+                padding: 20px;
+            }
+            .fa-user-group{
+                font-size: 2.2rem;
+                color: #fdb52a;
+                background: #fff6e5;
+                border-radius: 50%;
+                padding: 20px;
+            }
+            .fa-pen{
+                font-size: 2.2rem;
+                color: #fa5b68;
+                background: #feebed;
+                border-radius: 50%;
+                padding: 20px;
+            }
+            .fa-tablet-screen-button{
+                font-size: 2.2rem;
+                color: #6366f1;
+                background: #ecedfd;
+                border-radius: 50%;
+                padding: 20px;
+            }
+            .fa-gear{
+                font-size: 2.2rem;
+                color: #13d5ff;
+                background: #e3faff;
+                border-radius: 50%;
+                padding: 20px;
+            }
+            h3{
+                font-size: 1.8rem;
+                font-weight: bold;
+                padding: 35px 0 10px;
+                line-height: 1.5;
+            }
+            p{
+                font-size: 1.3rem;
+                line-height: 1.7;
+                color: #64728f;
+            }  
         }
     }
 }
