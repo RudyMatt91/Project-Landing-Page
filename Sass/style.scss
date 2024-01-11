@@ -634,7 +634,6 @@
             color: #64728f;
             line-height: 1.5;
             padding-bottom: 60px;
-            margin-bottom: 60px;
         }
         .pricing-plans__container{
             display: grid;
@@ -803,5 +802,48 @@
             }
         }
     }
+    }
+}
+
+#newsletter-section{
+    padding: 100px 0;
+    
+    .newsletter-container{
+        border-bottom: solid 2px #e5e7eb;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        .newsletter-right{
+            h3{
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 1.3rem;
+                color: #64728f;
+                line-height: 1.5;
+            }
+        }
+        .email-left{
+            text-align: right;
+            input{
+                padding: 0 20px;
+                height: 83px;
+                width: 50%;
+                border-radius: 7px;
+                font-size: 1.4rem;
+            }
+            button{
+                // margin-top: 4px;
+                margin-left: 15px;
+                padding: 27px 40px;
+                border: none;
+                border-radius: 7px;
+                font-size: 1.5rem;
+                background: #6366f1;
+                color: white;
+            }
+        }
     }
 }
