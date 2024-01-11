@@ -606,3 +606,202 @@
         }
     }
 }
+
+#pricing-plan__section{
+    text-align: center;
+    padding: 100px 0;
+    .content-decoration{
+        text-align: center;
+        h3{
+            text-align: center;
+            background: #6366f1;
+            color: white;
+            font-size: 1.4rem;
+            font-weight: 500;
+            padding: 10px 0;
+            border-radius: 50px;
+            width: 15%;
+            margin: 0 auto;
+        }
+    }
+        h2{
+            padding: 40px 0;
+            font-size: 3.8rem;
+            font-weight: 900;
+        }
+        .header-p{
+            font-size: 1.7rem;
+            color: #64728f;
+            line-height: 1.5;
+            padding-bottom: 60px;
+            margin-bottom: 60px;
+        }
+        .pricing-plans__container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            .pricing-plan__card{
+                border: solid 1px #e5e7eb;
+                padding: 20px 40px;
+                text-align: left;
+                border-radius: 10px;
+                h4{
+                    font-size: 1.8rem;
+                    font-weight: bold;
+                    padding: 50px 0 20px;
+                }
+                .price{
+                    color: #64728f;
+                    font-size: 1.4rem;
+                    .dollar-sign{
+                        font-size: 3.0rem;
+                        font-weight: bold;
+                        color: black;
+                    }
+                    .ten{
+                        font-size: 4.1rem;
+                        font-weight: bold;
+                        color: black;
+                    }
+            }
+            p{
+                color: #64728f;
+                font-size: 1.4rem;
+                padding: 20px 0;
+            }
+            .get-started__btn{
+                color: #6366f1;
+                display: block;
+                width: 100%;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1.4rem;
+                font-weight: bold;
+                border: 3px solid #6366f1;
+                border-radius: 10px;
+                padding: 20px 0;
+            }
+            .learn-more__btn{
+                background: #f7f8f9;
+                color: black;
+                display: block;
+                width: 100%;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1.4rem;
+                font-weight: bold;
+                border: 3px solid #f7f8f9;
+                border-radius: 10px;
+                padding: 20px 0;
+                margin-top: 20px;
+            }
+            ul{
+                // #f7f8f9
+                padding: 30px 0;
+                border-top: solid 1px #f7f8f9;
+                margin: 50px 0;
+                li{
+                    margin-top: 30px;
+                    font-size: 1.4rem;
+                    .fa-circle-check{
+                        color: #6366f1;
+                        font-size: 1.5rem;
+                        margin-right: 2px;
+                    }
+                }
+            }
+        }
+        .pricing-plan__middle{
+            border: solid 3px #6366f1;
+            padding: 20px 40px;
+            text-align: left;
+            border-radius: 10px;
+            .middle-card{
+                // display: inline-block;
+                width: 100%;
+                position: relative;
+                h4{
+                    display: inline-block;
+                    font-size: 1.8rem;
+                    font-weight: bold;
+                    padding: 50px 0 20px;
+                }
+                span{
+                    background: #97f2ff;
+                    position: absolute;
+                    top: 50px;
+                    right: 0;
+                    display: inline-block;
+                    width: 31%;
+                    padding: 5px;
+                    border-radius: 15px;
+                    text-align: right;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+            .price{
+                color: #64728f;
+                font-size: 1.4rem;
+                .dollar-sign{
+                    font-size: 3.0rem;
+                    font-weight: bold;
+                    color: black;
+                }
+                .ten{
+                    font-size: 4.1rem;
+                    font-weight: bold;
+                    color: black;
+                }
+        }
+        p{
+            color: #64728f;
+            font-size: 1.4rem;
+            padding: 20px 0;
+        }
+        .get-started__btn{
+            background: #6366f1;
+            color: white;
+            display: block;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border: 3px solid #6366f1;
+            border-radius: 10px;
+            padding: 20px 0;
+        }
+        .learn-more__btn{
+            background: #f7f8f9;
+            color: black;
+            display: block;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border: 3px solid #f7f8f9;
+            border-radius: 10px;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        ul{
+            // #f7f8f9
+            padding: 30px 0;
+            border-top: solid 1px #f7f8f9;
+            margin: 50px 0;
+            li{
+                margin-top: 30px;
+                font-size: 1.4rem;
+                .fa-circle-check{
+                    color: #6366f1;
+                    font-size: 1.5rem;
+                    margin-right: 2px;
+                }
+            }
+        }
+    }
+    }
+}
