@@ -54,10 +54,20 @@
   font-size: 1.3rem;
   font-weight: 500;
   color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out 0.3s;
+}
+#top-menu .navigation .purchase-now:hover {
+  color: black;
+  background: white;
+}
+#top-menu .navigation .purchase-now:hover .fa-solid {
+  color: black;
 }
 #top-menu .navigation .purchase-now .fa-solid {
   color: white;
   margin-right: 10px;
+  transition: all 0.3s ease-in-out 0.3s;
 }
 
 #top-header .background-img {
@@ -122,6 +132,10 @@
   font-weight: 500;
   border-radius: 10px;
   margin-right: 15px;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#top-header .background-img .section-container .left-section .request-demo__btn:hover {
+  background: #7a7cf5;
 }
 #top-header .background-img .section-container .left-section .sign-up__btn {
   text-decoration: none;
@@ -131,6 +145,11 @@
   font-size: 20px;
   font-weight: 500;
   border-radius: 10px;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#top-header .background-img .section-container .left-section .sign-up__btn:hover {
+  background: #6366f1;
+  color: white;
 }
 #top-header .background-img .section-container .left-section .logos {
   margin-top: 100px;
@@ -191,18 +210,23 @@
   background: #6366f1;
   color: white;
   margin: 35px 0 20px;
-  padding: 25px 0;
+  padding: 22px 0;
   font-size: 1.3rem;
   border-radius: 10px;
   border: solid 1px lightgrey;
   font-weight: 700;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#top-header .background-img .section-container .right-section .form-submit button:hover {
+  cursor: pointer;
+  background: #7a7cf5;
 }
 #top-header .background-img .section-container .right-section .form-submit .form-p {
   padding: 20px 0;
 }
 #top-header .background-img .section-container .right-section .form-submit a {
   text-decoration: none;
-  border: solid 1px lightgrey;
+  border: solid 1px #fafafa;
   border-radius: 10px;
   vertical-align: middle;
   padding: 20px;
@@ -214,10 +238,14 @@
   text-decoration: none;
   color: black;
   font-weight: 900;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#top-header .background-img .section-container .right-section .form-submit a:hover {
+  background: #fafafa;
 }
 #top-header .background-img .section-container .right-section .form-submit a img {
   margin-right: 10px;
-  width: 8%;
+  width: 5%;
 }
 
 #features-section {
@@ -258,6 +286,11 @@
   font-size: 1.3rem;
   font-weight: 900;
   margin-right: 5px;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#features-section .left-btn:hover {
+  cursor: pointer;
+  background: #7a7cf5;
 }
 #features-section .right-btn {
   background: white;
@@ -269,6 +302,11 @@
   font-size: 1.3rem;
   font-weight: 900;
   margin-left: 5px;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#features-section .right-btn:hover {
+  background: #6366f1;
+  color: white;
 }
 #features-section .three-sections {
   margin-top: 100px;
@@ -320,6 +358,11 @@
   color: black;
   font-size: 1.3rem;
   font-weight: 900;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+#features-section .three-sections .features-section__one .feature-one .link a:hover {
+  cursor: pointer;
+  color: #6366f1;
 }
 #features-section .three-sections .features-section__two {
   position: relative;
@@ -375,6 +418,11 @@
   color: black;
   font-size: 1.3rem;
   font-weight: 900;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+#features-section .three-sections .features-section__three .feature-one .link a:hover {
+  cursor: pointer;
+  color: #6366f1;
 }
 
 #our-process__section {
@@ -513,6 +561,11 @@
   font-size: 1.5rem;
   font-weight: 500;
   margin-right: 10px;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#faq-section .faq-container__section .top-right .left-btn:hover {
+  cursor: pointer;
+  background: #7a7cf5;
 }
 #faq-section .faq-container__section .top-right .right-btn {
   background: white;
@@ -524,6 +577,11 @@
   font-size: 1.5rem;
   font-weight: 900;
   margin-left: 5px;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#faq-section .faq-container__section .top-right .right-btn:hover {
+  background: #6366f1;
+  color: white;
 }
 #faq-section .card-container {
   padding: 50px 0;
@@ -665,6 +723,11 @@
   border: 3px solid #6366f1;
   border-radius: 10px;
   padding: 20px 0;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#pricing-plan__section .pricing-plans__container .pricing-plan__card .get-started__btn:hover {
+  background: #6366f1;
+  color: white;
 }
 #pricing-plan__section .pricing-plans__container .pricing-plan__card .learn-more__btn {
   background: #f7f8f9;
@@ -679,6 +742,11 @@
   border-radius: 10px;
   padding: 20px 0;
   margin-top: 20px;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#pricing-plan__section .pricing-plans__container .pricing-plan__card .learn-more__btn:hover {
+  background: #949494;
+  color: white;
 }
 #pricing-plan__section .pricing-plans__container .pricing-plan__card ul {
   padding: 30px 0;
@@ -755,6 +823,11 @@
   border: 3px solid #6366f1;
   border-radius: 10px;
   padding: 20px 0;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#pricing-plan__section .pricing-plans__container .pricing-plan__middle .get-started__btn:hover {
+  cursor: pointer;
+  background: #7a7cf5;
 }
 #pricing-plan__section .pricing-plans__container .pricing-plan__middle .learn-more__btn {
   background: #f7f8f9;
@@ -769,6 +842,11 @@
   border-radius: 10px;
   padding: 20px 0;
   margin-top: 20px;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#pricing-plan__section .pricing-plans__container .pricing-plan__middle .learn-more__btn:hover {
+  background: #949494;
+  color: white;
 }
 #pricing-plan__section .pricing-plans__container .pricing-plan__middle ul {
   padding: 30px 0;
@@ -822,6 +900,11 @@
   font-size: 1.5rem;
   background: #6366f1;
   color: white;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+#newsletter-section .newsletter-container .email-left button:hover {
+  cursor: pointer;
+  background: #7a7cf5;
 }
 
 #footer-section {
@@ -873,6 +956,11 @@
   color: #64728f;
   font-size: 1.3rem;
   padding: 20px 0;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+#footer-section .footer-container .pages-sections .pages-container a:hover {
+  cursor: pointer;
+  color: #888af8;
 }
 #footer-section .footer-container .utility-pages__section {
   margin: 0 auto;
@@ -892,6 +980,11 @@
   color: #64728f;
   font-size: 1.3rem;
   padding: 20px 0;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+#footer-section .footer-container .utility-pages__section .utility-pages-container a:hover {
+  cursor: pointer;
+  color: #888af8;
 }
 #footer-section .end-container {
   padding: 50px 0;
@@ -908,4 +1001,9 @@
   padding-right: 10px;
   margin-right: 10px;
   border-right: solid 1px black;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+#footer-section .end-container .terms span:hover {
+  cursor: pointer;
+  color: #888af8;
 }/*# sourceMappingURL=style.css.map */
